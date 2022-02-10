@@ -14,6 +14,7 @@ I faced lot issues with time code in javascript but with my sister's help(https:
 https://pawan495.github.io/QuizGame/
 
 # Screenshot:
+
 [ScreenshotPreview](./assets/image/pic1.png)
 [ScreenshotPreview](./assets/image/pic2.png)
 [ScreenshotPreview](./assets/image/pic3.png)
