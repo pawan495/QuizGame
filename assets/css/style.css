@@ -1,0 +1,169 @@
+:root{
+    background-color: aliceblue;
+    font-size: 62.5%;
+    --btn-color:#56a;
+    --link-color: #0d93a5;
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* UTILITIES */
+  /* General styling for buttons */
+  button,
+  .btn {
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    max-width: 250px;
+  }
+  
+  button:hover,
+  .btn:hover {
+    background-color: var(--link-color);
+    cursor: pointer;
+  }
+  
+  /* Positions container for quiz */
+  body {
+    align-items: center;
+    border: 1px solid;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  /* Position quiz elements */
+  .container {
+    align-items: center;
+    border: 3px solid;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    max-width: 90%;
+    position: relative;
+    width: 90vw;
+  }
+  
+  /* Positioning for the view high scores link */
+  .link-wrapper {
+    position: absolute;
+    top: 3.3125rem;
+    left: 2.4375rem;
+  }
+  
+  /* Styling for high scores link */
+  .high-score-link {
+    color: var(--link-color);
+  }
+  
+  /* Position for the timer */
+  .timer-wrapper {
+    position: absolute;
+    top: 3.3125rem;
+    right: 2.4375rem;
+  }
+  
+  /* General position of all containers */
+  .intro,
+  .quiz,
+  form,
+  .high-scores {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 50vh;
+    max-width: 50%;
+    width: 50vw;
+  }
+  
+  /* INTRO SECTION */
+  
+  /* Position for introduction header */
+  .intro h1 {
+    align-self: center;
+  }
+  
+  /* Styling for introduction text */
+  .intro p {
+    padding: 0 5em;
+    font-size: 20px;
+  }
+  
+  /* QUIZ SECTION */
+  /* Positioning for header */
+  .quiz h1 {
+    margin-left: 0.5em;
+  }
+  
+  .option-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-right: 25em;
+  }
+  
+  /* Styling for Wrong/Right text and its border */
+  .choice-wrapper {
+    color: #aaa;
+    font-size: 1.5rem;
+  
+    border-top: 1px solid;
+    margin-top: 1em;
+    width: 40em;
+  }
+  
+  /* Positioning for Wrong/Right text */
+  .choice {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
+  
+  /* FORM SECTION */
+  /* Sets style for input text field */
+  .submit-container input {
+    height: 2em;
+    width: 17em;
+  }
+  /* HIGH SCORES SECTION */
+  .high-scores li {
+    /* border: 1px solid; */
+    list-style: none;
+    padding-top: 0.5em;
+    height: 2em;
+    width: 30em;
+    background-color: #56a5ab;
+  }
+  
+  /* JS - Will hide what is it is applied to */
+  .hide {
+    display: none;
+  }
+
+  /* footer*/
+
+.footer div{
+    color: #000;
+    font-size: small;
+    align-items: center;
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- MAIN CONTAINER -->
+    <main class="container">
+      <!--  high scores -->
+      <div class="link-wrapper">
+        <a href="#" class="high-score-link" id="scores-link"
+          >View high scores</a
+        >
+      </div>
+      <!-- Timer -->
+      <div class="timer-wrapper">
+        <p class="time-text">Time: <span id="time-countdown">0</span></p>
+      </div>
+      <!-- INTRODUCTION SECTION -->
+      <div class="intro" id="JS-intro">
+        <h1>Quiz Challenge</h1>
+        <p>
+          Try to answer the coding related questions within the time limit. All incorrect answers will penalize your score/time by 10
+          seconds!
+        </p>
+        <!-- Start quiz button -->
+        <button class="btn start-btn" id="start-quiz">Start Quiz</button>
+      </div>
+      <!-- QUIZ SECTION -->
+      <div class="quiz hide" id="JS-quiz">
+        <h1>Question</h1>
+        <!-- Option List -->
+        <div class="option-list" id="JS-option-list">
+          <div class="button-wrapper">
+            <p class="btn option" data-number="1">Option 1</p>
+          </div>
+          <div class="button-wrapper">
+            <p class="btn option" data-number="2">Option 2</p>
+          </div>
+          <div class="button-wrapper">
+            <p class="btn option" data-number="3">Option 3</p>
+          </div>
+          <div class="button-wrapper">
+            <p class="btn option" data-number="4">Option 4</p>
+          </div>
+          <!-- Text for correct or incorrect answers -->
+          <div class="choice-wrapper">
+            <p class="choice-correct hide">Correct</p>
+            <p class="choice-wrong hide">Wrong</p>
+          </div>
+        </div>
+      </div>
+      <!-- SUBMIT FORM -->
+      <div class="form-container hide">
+        <form id="JS-form">
+          <h1>All Done!</h1>
+          <p>Your final score is <span id="score-text"></span></p>
+          <div class="submit-container">
+            <label for="input-name">Enter Initials:</label>
+            <input
+              type="text"
+              name="input-name"
+              id="input-name"
+              placeholder="Initials"
+            />
+            <button type="submit" id="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <!-- HIGH SCORES  -->
+      <div class="high-scores hide" id="JS-high-scores">
+        <h1>High Scores</h1>
+        <ul id="JS-all-scores"></ul>
+        <div class="btn-group">
+          <a href="" class="restart btn">Go back</a>
+          <a href="" class="clear-scores btn">Clear high scores</a>
+        </div>
+      </div>
+  
+    <footer>
+       <div> &copy; Pawanpreet Kaur</div>
+    </footer>
+</main>
+    <script src="./assets/JS/script.js"></script>
+  </body>
+</html>
