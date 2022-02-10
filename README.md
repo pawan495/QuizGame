@@ -11,7 +11,7 @@ I used Google(https://www.google.com), W3schools.com ,and some books to solve my
 I faced lot issues with time code in javascript but with my sister's help(https://jasmeet12.github.io/), I get a solution.
 
 # Deployed URl:
-
+https://pawan495.github.io/QuizGame/
 
 # Screenshot:
 [ScreenshotPreview](./assets/image/pic1.png)
