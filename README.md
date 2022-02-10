@@ -15,3 +15,6 @@ https://pawan495.github.io/QuizGame/
 
 # Screenshot:
 ![ScreenshotPreview](./assets/image/pic1.png)
+[ScreenshotPreview](./assets/image/pic2.png)
+[ScreenshotPreview](./assets/image/pic3.png)
+[ScreenshotPreview](./assets/image/pic4.png)
