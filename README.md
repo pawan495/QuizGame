@@ -14,13 +14,10 @@ I faced lot issues with time code in javascript but with my sister's help(https:
 https://pawan495.github.io/QuizGame/
 
 # Screenshot:
-<<<<<<< HEAD
 
 [ScreenshotPreview](./assets/image/pic1.png)
 [ScreenshotPreview](./assets/image/pic2.png)
 [ScreenshotPreview](./assets/image/pic3.png)
 [ScreenshotPreview](./assets/image/pic4.png)
-=======
 ![ScreenshotPreview](./assets/image/pic1.png)
 
->>>>>>> e885bac8ddea8ed55f2fd1d3e05ad434ea981458
