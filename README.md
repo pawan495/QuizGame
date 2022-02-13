@@ -1,16 +1,9 @@
 # QuizGame
 # About
-<<<<<<< HEAD
 A timed coding quiz with multiple-choice questions. This application runs in the browser featured with Html, Css and Javascript with Scores and Timer.
 
 # Description
-In Quiz-Game-Challenge, when you click on the start button, then the timer will start. You will have 75 seconds to answer all the questions. If you get a wrong answer then you will penality 10 seconds. Then you can add your Initials and your score will be what time is left over and you can save your score. Don't forget that only 5 highest scores get saved and displayed.
-=======
-A timed coding quiz with multiple-choice questions. This Appication runs in the browser featured with Html, Css and Javascript with Scores and Timer.
-
-# Description
-In Quiz-Game-Challenge, when you click on the start button, then the timer will start. You will have 75 seconds to answer all the questions. If you get a wrong answer then you will penelise 10 seconds. Then you can add your Initials and your score will be what time is left over and you can save your score. Don't forget that only 5 highscores get saved and displayed.
->>>>>>> 8f3d6c47bce825da39853159a32786c757978a69
+In Quiz-Game-Challenge, when you click on the start button, then the timer will start. You will have 75 seconds to answer all the questions. If you get a wrong answer then you will penality 10 seconds. Then you can add your Initials and your score will be what time is left over and you can save your score. Don't forget that only 5 highscores get saved and displayed.
 
 # Help
 I used Google(https://www.google.com), W3schools.com ,instructors and some books to solve my problems.
@@ -34,7 +27,3 @@ https://pawan495.github.io/QuizGame/
 [ScreenshotPreview](./assets/image/pic3.png)
 [ScreenshotPreview](./assets/image/pic4.png)
 ![ScreenshotPreview](./assets/image/pic1.png)
-<<<<<<< HEAD
-=======
-
->>>>>>> 8f3d6c47bce825da39853159a32786c757978a69
