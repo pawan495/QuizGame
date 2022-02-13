@@ -34,7 +34,7 @@ let availableQuestions = [];
 // Variable for prevent user from clicking too quickly too many times thus messing up the game
 let acceptingAnswers = false;
 // What the timer will start it and is also the score
-let startTime = 100;
+let startTime = 5;
 
 // Since we are getting the highscores for the first time this will initialize our empty array which the scores will be saved to
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
