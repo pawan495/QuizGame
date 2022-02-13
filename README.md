@@ -14,7 +14,11 @@ I faced lot issues with time code in javascript but with my sister's help(https:
 # Deployed URl:
 https://pawan495.github.io/QuizGame/
 
-#
+# Build with
+-HTML
+-CSS
+-JAVASCRIPT
+
 
 # Screenshot:
 
