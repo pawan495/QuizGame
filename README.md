@@ -13,7 +13,6 @@ I faced lot issues with time code in javascript but with my sister's help(https:
 
 # Deployed URL:
 https://pawan495.github.io/QuizGame/
-
 # Build with
 -HTML
 -CSS
